@@ -1,0 +1,17 @@
+// REST API -- JSON
+
+GET /api/users - List all users (done)
+
+GET /api/users/1 - get the user with ID 1 (done)
+GET /api/users/2 - get the user with ID 2 (done)
+
+POST /api/users -Create new user
+
+PATCH /api/user/1 - Edit the user with ID 1
+
+DELETE /api/users/1 - delete the user with ID 1
+
+
+DYNAMIC PATH PARAMETER
+GET /api/users/:id (here id is dynamic parameter, because colon is behind this)
+
